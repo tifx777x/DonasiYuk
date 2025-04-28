@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id ("com.google.gms.google-services")
 }
 
 android {
@@ -31,12 +32,22 @@ android {
 
 dependencies {
     // Compose UI
+
+    implementation ("com.google.firebase:firebase-auth-ktx")
+    implementation ("com.google.firebase:firebase-firestore-ktx")
     implementation("androidx.compose.ui:ui:1.6.1")
     implementation("androidx.compose.material3:material3:1.2.0")
     implementation("androidx.compose.ui:ui-tooling-preview:1.6.1")
+    implementation ("androidx.compose.material:material-icons-extended:1.4.0")
+
+
 
     // Navigation
     implementation("androidx.navigation:navigation-compose:2.7.6")
+
+
+    // Hilt
+    implementation ("com.google.dagger:hilt-android:2.51")
 
     // Untuk preview
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")

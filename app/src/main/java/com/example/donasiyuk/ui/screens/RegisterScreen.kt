@@ -1,4 +1,4 @@
-package com.example.donasiyuk
+package com.example.donasiyuk.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

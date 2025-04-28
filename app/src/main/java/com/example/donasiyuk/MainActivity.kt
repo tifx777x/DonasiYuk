@@ -10,6 +10,9 @@
     import androidx.navigation.compose.NavHost
     import androidx.navigation.compose.composable
     import androidx.navigation.compose.rememberNavController
+    import com.example.donasiyuk.ui.screens.LoginScreen
+    import com.example.donasiyuk.ui.screens.RegisterScreen
+    import com.example.donasiyuk.ui.screens.SplashScreen
     import com.example.donasiyuk.ui.theme.DonasiYukTheme
 
     class MainActivity : ComponentActivity() {

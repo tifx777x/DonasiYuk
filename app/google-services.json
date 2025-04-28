@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "422236785194",
+    "project_id": "donasiyuk-b720d",
+    "storage_bucket": "donasiyuk-b720d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422236785194:android:fbb1690d089c70d9bfd153",
+        "android_client_info": {
+          "package_name": "com.example.donasiyuk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUl-twLzat7DDDYWKaSZKEXSHkb3T6aLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
