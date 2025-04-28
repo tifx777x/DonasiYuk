@@ -71,6 +71,7 @@ fun RegisterScreen(navController: NavController) {
             Spacer(modifier = Modifier.height(32.dp))
 
             Card(
+                colors = CardDefaults.cardColors(containerColor = Color(0xFFDCEDC8)),
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(16.dp),
                 elevation = CardDefaults.cardElevation(8.dp)

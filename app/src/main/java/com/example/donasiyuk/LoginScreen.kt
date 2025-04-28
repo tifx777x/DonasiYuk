@@ -1,5 +1,6 @@
 package com.example.donasiyuk
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -10,8 +11,10 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -39,6 +42,12 @@ fun LoginScreen(navController: NavController) {
                 .align(Alignment.Center),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Image(
+                painter = painterResource(id = R.drawable.logo),
+                contentDescription = "Logo Donasi Yuk",
+                modifier = Modifier
+                    .size(250.dp)
+            )
             Text(
                 text = "Donasi Yuk",
                 fontSize = 36.sp,
@@ -58,6 +67,7 @@ fun LoginScreen(navController: NavController) {
 
             Card(
                 modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFFDCEDC8)),
                 shape = RoundedCornerShape(16.dp),
                 elevation = CardDefaults.cardElevation(8.dp)
             ) {
