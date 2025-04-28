@@ -57,7 +57,7 @@ fun RegisterScreen(navController: NavController) {
                 text = "Donasi Yuk",
                 fontSize = 36.sp,
                 fontWeight = FontWeight.ExtraBold,
-                color = Color(0xFF4CAF50)
+                color = Color(0xFF4CAF50)   
             )
 
             Spacer(modifier = Modifier.height(8.dp))
